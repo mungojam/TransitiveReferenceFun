@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.4</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PackageA" Version="1.0.0">
+      <PrivateAssets>contentfiles;analyzers;build;compile</PrivateAssets>
+      <IncludeAssets>Runtime</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
